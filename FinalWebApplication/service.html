@@ -1,0 +1,68 @@
+<!--Apurva Patel - Final Web Application-->
+<!DOCTYPE html>
+<html lang="en">
+<!--Services Page-->
+
+<head>
+    <title>Services</title>
+    <meta name="description" content="3135 Activity">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/apate251/Exercise/FinalWebApplication/Patel-Assignment4.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="/apate251/Exercise/FinalWebApplication/Patel-Assignment4.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <div class="navbar">
+            <a class="title" href="/apate251/Exercise/FinalWebApplication/index.html"><img src="/apate251/Exercise/FinalWebApplication/images/logo.png" class="logo-image" alt="logo"> Blue Lotus Clinic </a>
+            <div class="navbar-right">
+                <!--Shows that this page is active-->
+                <a href="/apate251/Exercise/FinalWebApplication/index.html">Home</a>
+                <a href="/apate251/Exercise/FinalWebApplication/about.html">About</a>
+                <a href="/apate251/Exercise/FinalWebApplication/service.html" class="active">Services</a>
+                <a href="/apate251/Exercise/FinalWebApplication/contact.html">Contact</a>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div>
+                <!--Types of services offered, about booking an appointment-->
+                <h2>Online Counseling Offered!</h2>
+                <hr>
+            </div>
+            <!--Created a bxslider to show what services are offered-->
+            <div id="service-options">
+                <ul id="slider">
+                    <li><img src="/apate251/Exercise/FinalWebApplication/images/grouptherapy.png" alt="" title="Group Therapy"></li>
+                    <li><img src="/apate251/Exercise/FinalWebApplication/images/coupletherapy.png" alt="" title="Couples Therapy"></li>
+                    <li><img src="/apate251/Exercise/FinalWebApplication/images/Individualtherapy.png" alt="" title="Individual Therapy"></li>
+                    <li><img src="/apate251/Exercise/FinalWebApplication/images/divorcecounseling.png" alt="" title="Divorce Counseling"></li>
+
+                </ul>
+                <p id="id_pager"></p>
+
+            </div>
+            <div>
+                <!---Created a form to book an appointment-->
+                <form>
+                    <button class="appointment-button" type="button" value="button" id="book-appointment">Book an Appointment</button>
+                </form>
+            </div>
+        </div>
+
+    </main>
+    <!--Footer to show the copyright and validate html and css files-->
+    <footer>
+        <p>© Patel |
+            <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> |
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+        </p>
+    </footer>
+</body>
+
+
+</html>

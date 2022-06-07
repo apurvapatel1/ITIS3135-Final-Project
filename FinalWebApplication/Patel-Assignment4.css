@@ -1,0 +1,363 @@
+/*--Apurva Patel - Final Web Application CSS File*/
+
+
+/*noinspection CssUnknownTarget*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+
+/*noinspection CssUnknownTarget*/
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital@1&display=swap');
+
+/*@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');*/
+
+
+/*noinspection CssUnknownTarget*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
+
+/*noinspection CssUnknownTarget*/
+
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital@1&display=swap');
+
+/*noinspection CssUnknownTarget*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+* {
+    box-sizing: content-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+}
+
+p {
+    font-family: 'Lora', serif;
+}
+
+.home-box h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 100px 0;
+    position: absolute;
+    top: 25%;
+    display: block;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    display: block;
+    font-weight: bold;
+    font-family: 'Tinos', serif;
+}
+
+h3 {
+    font-family: 'Tinos', serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+label {
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+
+form {
+    text-align: justify;
+}
+
+div {
+    display: block;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+}
+
+footer {
+    text-align: center;
+    color: black;
+}
+
+.logo-image {
+    width: 35px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.navbar a {
+    font-family: 'Lora', serif;
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+.title {
+    font-family: 'IM Fell Double Pica', serif;
+    font-style: italic;
+}
+
+.navbar-right a.active,
+.navbar-right a:hover {
+    background-color: #a4ccad;
+    color: white;
+}
+
+.home-box {
+    background-color: #e1f2ec !important;
+    padding: 50px 0;
+    display: block;
+}
+
+.about-box {
+    background-color: #e2e9c8 !important;
+    padding: 12px 24px !important;
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+}
+
+.about-info p {
+    line-height: 1.7em;
+    font-size: 20px;
+    display: block;
+    float: right;
+}
+
+.about-row {
+    content: "";
+    display: flex;
+    justify-content: center;
+}
+
+.about-column {
+    display: flex;
+    width: 100%;
+    padding: 50px;
+}
+
+.about-column img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 800px;
+    height: 750px;
+    position: relative;
+    vertical-align: center;
+}
+
+.about-info {
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.myVideo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    height: 800px;
+}
+
+.service-box {
+    background-color: #ffe8e1;
+    position: relative;
+    padding: 32px 0;
+}
+
+.contact-box {
+    color: #000;
+    background-color: #bbc3a6;
+    position: relative;
+    padding: 32px 0;
+}
+
+.contact-column img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    height: 750px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-column {
+    display: grid;
+    float: left;
+    width: 100%;
+    padding: 50px;
+    justify-content: center;
+}
+
+.contact-row {
+    content: "";
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-column,
+    .about-column input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.contact-form {
+    position: relative;
+    display: grid;
+    width: 800px;
+    min-height: auto;
+    align-items: center;
+    height: 750px;
+}
+
+.contact-form p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.form-container {
+    position: relative;
+    display: grid;
+    min-height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+}
+
+.num-input {
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+
+.num-input {
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
+
+.email-input {
+    grid-column: 1 / 4;
+    grid-row: 2;
+}
+
+.message-input {
+    grid-column: 1 / 4;
+    grid-row: 4;
+}
+
+.service-choice {
+    grid-column: 1 / 4;
+    grid-row: 3;
+}
+
+.service-choice select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 2px solid #798044;
+    font-size: 15px;
+}
+
+.form-container textarea {
+    font-size: 15px;
+    width: 100%;
+    resize: none;
+    overflow: hidden;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+.send-button {
+    grid-column: 1/4;
+    grid-row: 5;
+}
+
+.contact-form button {
+    color: #fff !important;
+    background-color: #769e39!important;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+.contact-form button:hover {
+    background-color: #99cc4a !important;
+}
+
+.contact-border {
+    border: 2px solid #77803e !important;
+}
+
+.bx-wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.appointment-button {
+    font-family: 'Tinos', serif;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 300px;
+    height: 45px;
+    display: block;
+    background-color: #EFCD9C;
+    box-sizing: content-box;
+}
+
+.appointment-button:hover {
+    background-color: #eaae62;
+}
+
+.contact-info p {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
