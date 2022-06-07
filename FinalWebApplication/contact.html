@@ -1,0 +1,53 @@
+<!--Apurva Patel - Final Web Application-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Contat page-->
+
+<head>
+    <title>Contact</title>
+    <meta name="description" content="3135 Activity">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/apate251/Exercise/FinalWebApplication/Patel-Assignment4.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/autosize.js/4.0.2/autosize.min.js"></script>
+    <script src="/apate251/Exercise/FinalWebApplication/Patel-Assignment4.js"></script>
+</head>
+
+<body>
+    <main>
+        <!--Navigation bar -->
+        <div class="navbar">
+            <a class="title" href="/apate251/Exercise/FinalWebApplication/index.html"><img src="/apate251/Exercise/FinalWebApplication/images/logo.png" class="logo-image" alt="logo"> Blue Lotus Clinic </a>
+            <div class="navbar-right">
+                <!--Shows that this page is active-->
+                <a href="/apate251/Exercise/FinalWebApplication/index.html">Home</a>
+                <a href="/apate251/Exercise/FinalWebApplication/about.html">About</a>
+                <a href="/apate251/Exercise/FinalWebApplication/service.html">Services</a>
+                <a href="/apate251/Exercise/FinalWebApplication/contact.html" class="active">Contact</a>
+            </div>
+        </div>
+
+        <div class="contact-box" id="contactPage">
+            <h2 class="contact-left">Have any Question or Book an appointment?</h2>
+            <hr>
+            <!--XMLHttpRequest (Ajax) gets the information from httml page-->
+            <div id="contactContainer"></div>
+        </div>
+
+        <!--shows a map at the bottom of the page-->
+        <div>
+            <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=,%20NC%2028223+(Therapist)&amp;t=p&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        </div>
+    </main>
+    <!--Footer to show the copyright and validate html and css files-->
+    <footer>
+        <p>© Patel |
+            <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> |
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+        </p>
+    </footer>
+</body>
+
+</html>

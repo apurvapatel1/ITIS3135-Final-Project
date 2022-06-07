@@ -1,0 +1,60 @@
+<!--Apurva Patel - Final Web Application-->
+<!--contactContainer-->
+<div class="contact-row">
+    <div class="contact-column">
+        <img src="/apate251/Exercise/FinalWebApplication/images/succulent.jpg" alt="succulent">
+    </div>
+    <div class="contact-column">
+        <div class="contact-form">
+            <!--Form to ask about their user information-->
+            <form id="myForm" action="mailto:waltmansharlene8@gmail.com" enctype="text/plain">
+                <p> For more information or to schedule an appointment, please complete form below: </p>
+                <!--Form container-->
+                <div class="form-container">
+                    <div class="name-input">
+                        <label for="name">
+                            <input class="contact-border" id="name" type="text" required name="name" aria-label="name" placeholder="Full Name*"></label>
+                    </div>
+                    <!--Ask user to input the contact number-->
+                    <div class="num-input">
+                        <label for="contactNumber">
+                            <input class="contact-border" id="contactNumber" type="text" required name="contact" aria-label="contactNumber" placeholder="Contact Number*"></label>
+                    </div>
+                    <!--Ask user to input an email address-->
+                    <div class="email-input">
+                        <label for="email">
+                            <input class="contact-border" id="email" type="text" required name="email" aria-label="email" placeholder="Email*"></label>
+                    </div>
+                    <!--Ask user to select the type of service-->
+                    <div class="service-choice">
+                        <label for="service">
+                            <select name="service" id="service">
+                                <option value="" disabled selected>Choose a service</option>
+                                <option value="individualTherapy">Individual Therapy</option>
+                                <option value="groupTherapy">Group Therapy</option>
+                                <option value="coupleTherapy">Couples Therapy</option>
+                                <option value="divorceCounseling">Divorce Counseling</option>
+                            </select>
+                        </label>
+                    </div>
+                    <!--Allows user to input a message-->
+                    <div class="message-input">
+                        <label for="message">
+                            <textarea class="contact-border" id="message" required name="message" aria-label="messageArea" placeholder="Enter a message...*"></textarea></label>
+                    </div>
+                    <!--send button-->
+                    <div class="send-button">
+                        <button type="submit" value="Submit button" id="sendButton">Send</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+<!--Shows information where to contact and how to contact, hours of operation-->
+<div class="contact-info">
+    <p>
+        Sharlene Nelson, Ph.D | Charlotte, NC 28223 | Phone: (252)-665-2713<br> Hours: Mon-Fri: 8am to 5pm
+    </p>
+</div>
